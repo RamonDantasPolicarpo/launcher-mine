@@ -8,7 +8,7 @@ class Program
     {
         var launcher = new MinecraftLauncher();
 
-        var game = launcher.InstallAndBuildProcessAsync(
+        var game = await launcher.InstallAndBuildProcessAsync(
             "1.8.9", 
             new MLaunchOption
             {
@@ -16,6 +16,7 @@ class Program
                 MaximumRamMb = 4096
             }
         );
+        game.Start();
 
         //Lista todas as versões do mine
         var versions = await launcher.GetAllVersionsAsync();
