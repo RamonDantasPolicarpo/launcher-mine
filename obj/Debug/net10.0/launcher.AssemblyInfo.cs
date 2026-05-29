@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("launcher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a836378ac7a6e88f02db3fbbad14613ca3c751d")]
 [assembly: System.Reflection.AssemblyProductAttribute("launcher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("launcher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
