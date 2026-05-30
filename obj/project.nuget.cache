@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "LBmYuMw6J8E=",
+  "dgSpecHash": "UH24fYdZtBI=",
   "success": true,
   "projectFilePath": "C:\\Users\\ramon\\OneDrive\\Área de Trabalho\\Projetos\\test-launcher-mine\\launcher\\launcher.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ramon\\.nuget\\packages\\cmllib.core\\4.0.6\\cmllib.core.4.0.6.nupkg.sha512",
     "C:\\Users\\ramon\\.nuget\\packages\\cmllib.core.commons\\4.0.0\\cmllib.core.commons.4.0.0.nupkg.sha512",
     "C:\\Users\\ramon\\.nuget\\packages\\lzma-sdk\\19.0.0\\lzma-sdk.19.0.0.nupkg.sha512",
-    "C:\\Users\\ramon\\.nuget\\packages\\sharpziplib\\1.4.2\\sharpziplib.1.4.2.nupkg.sha512"
+    "C:\\Users\\ramon\\.nuget\\packages\\sharpziplib\\1.4.2\\sharpziplib.1.4.2.nupkg.sha512",
+    "C:\\Users\\ramon\\.nuget\\packages\\spectre.console\\0.55.2\\spectre.console.0.55.2.nupkg.sha512",
+    "C:\\Users\\ramon\\.nuget\\packages\\spectre.console.ansi\\0.55.2\\spectre.console.ansi.0.55.2.nupkg.sha512"
   ],
   "logs": []
 }
