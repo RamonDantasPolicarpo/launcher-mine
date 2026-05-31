@@ -1,28 +1,16 @@
-﻿using CmlLib;
-using CmlLib.Core;
-using CmlLib.Core.Auth;
-using CmlLib.Core.ProcessBuilder;
+﻿using Spectre.Console;
+
 class Program
 {
+
     public static async Task Main()
     {
-        var launcher = new MinecraftLauncher();
+        var gui = new LauncherInterface();
 
-        var game = await launcher.InstallAndBuildProcessAsync(
-            "1.8.9", 
-            new MLaunchOption
-            {
-                Session = MSession.CreateOfflineSession("Ramon30"),
-                MaximumRamMb = 4096
-            }
-        );
-        game.Start();
-
-        //Lista todas as versões do mine
-        var versions = await launcher.GetAllVersionsAsync();
-        foreach (var version in versions)
-        {
-            Console.WriteLine(version);
-        }
+        AnsiConsole.MarkupLine("[bold]Bem vindo ao Launcher de [/][green bold]Minecraft[/]\n");
+        // Criar usuário
+        gui.createUser();
+        // Inicia o processo
+        await gui.selectVersions();
     }
 }
